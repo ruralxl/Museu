@@ -460,7 +460,14 @@ footer{
         width: 80px;
         height: 80px;
         top: -50%;
-        transform:translateY(20%);
+    }
+
+    .logo{
+        width: 231px;
+        height: 83px;
+        float: left;
+        background-image: url('../img/logo.png');
+        background-size: 100% 100%;
     }
 }
 
