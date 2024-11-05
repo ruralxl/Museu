@@ -60,6 +60,7 @@ header{
 }
 
 .three-points{
+    display: none;
     background-image:  url('../img/menu_icon_white.png');
     width: 100px;
     height: 100px;
