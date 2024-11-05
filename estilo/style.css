@@ -408,7 +408,8 @@ footer{
 .search-container{
 	width: 50%;
 	display: block;
-	margin: 80px auto;
+	margin: 3% auto;
+    margin-bottom: 2%;
 }
 
 input#search-bar{
@@ -439,6 +440,11 @@ input#search-bar{
     }
 }
 
+.obras-exposicoes{
+    width: 100%;
+    padding: 3%;
+}
+
 .search-icon{
 	position: relative;
 	float: right;
@@ -447,6 +453,73 @@ input#search-bar{
 	top: -62px;
 	right: -15px;
 }
+
+.tempo-exposicoes{
+    margin: 0 10%;
+    border-bottom: 1px solid black;
+}
+
+.tempo-exposicoes p{
+    display: inline-block;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 24px;
+    margin: 20px 40px;
+}
+
+.exposicoes-cards{
+    width: 100%;
+}
+
+.exposicoes-card-single{
+    width: 25%;
+    float: left;
+    max-height: 600px;
+    max-width: 450px;
+    margin: 5% 4%;   
+    border: 6px solid #424242;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.exposicoes-card-single-img{
+    width: 100%;
+    background-size: cover;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    padding-top: 80%;
+    height: 50%;
+}
+
+.exposicoes-card-single-text{
+    padding: 5%;
+    max-width: 300px;
+    margin: 0 auto;
+    font-family: "Inter";
+}
+
+.exposicoes-card-single-text h5{
+    border-bottom: 1px solid black;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.exposicoes-card-single-text p{
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 11px;
+}
+
+.exposicoes-card-single-text p:first-of-type{
+    padding: 0 5%;
+    text-align: center;
+}
+
+
 
 /*Exposicoes-------------------------------------------------*/
 
