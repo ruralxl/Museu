@@ -113,6 +113,67 @@ header{
 	text-decoration: none;
 }
 
+footer{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-part1{
+    width: 50%;
+    padding: 110px;
+}
+
+.footer-part2{
+    padding: 25px 2%;
+}
+
+.text-footer{
+    color: white;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+.footer-part2 .text-footer{
+    font-style: italic;
+}
+
+.logo-footer{
+    width: 270px;
+    height: 75px;
+    background-image: url('../img/logo2.png');
+    background-size: 100% 100%;
+    margin-bottom: 75px;
+}
+
+.icons-footer{
+    margin-top: 40px;
+    width: 100%;
+}
+
+.icon-single-footer{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-size: 100% 100%;
+    margin: 25px 0;
+    margin-right: 20px;
+}
+
+.prefeitura-icon-footer{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/prefeitura.png);
+    background-size: 100% 100%;
+    margin-right: 20px;
+}
+
+/*Home-------------------------------------------------------*/
+
 .banner{
     width: 100%;
     height: 750px;
@@ -300,65 +361,85 @@ header{
     color: black;
 }
 
-footer{
+/*Home-------------------------------------------------------*/
+
+/*Exposicoes-------------------------------------------------*/
+.banner-exposicoes{
     width: 100%;
-    background-color: black;
-    display: flex;
-    flex-direction: row;
 }
 
-.footer-part1{
-    width: 50%;
-    padding: 110px;
-}
-
-.footer-part2{
-    padding: 25px 2%;
-}
-
-.text-footer{
+.titulo-banner-exposicoes{
+    background-color:#535353;
+    padding: 6%;
+    padding-top: 5%;
     color: white;
-    font-family: "Inter";
-    font-size: 18px;
+    font-family: "Inria Sans";
+}
+
+.titulo-banner-exposicoes h2{
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.titulo-banner-exposicoes p{
     font-weight: 400;
-    margin-bottom: 70px;
+    font-size: 20px;
+    margin-top: 20px;
 }
 
-.footer-part2 .text-footer{
-    font-style: italic;
-}
-
-.logo-footer{
-    width: 270px;
-    height: 75px;
-    background-image: url('../img/logo2.png');
-    background-size: 100% 100%;
-    margin-bottom: 75px;
-}
-
-.icons-footer{
-    margin-top: 40px;
+.img-banner-exposicoes{
+    background-image: url('../img/exposicoes-banner.png');
     width: 100%;
-}
-
-.icon-single-footer{
-    float: left;
-    width: 50px;
-    height: 50px;
     background-size: 100% 100%;
-    margin: 25px 0;
-    margin-right: 20px;
+    padding-top: 20%;
 }
 
-.prefeitura-icon-footer{
-    float: left;
-    width: 100px;
-    height: 100px;
-    background-image: url(../img/prefeitura.png);
-    background-size: 100% 100%;
-    margin-right: 20px;
+.search-container{
+	width: 50%;
+	display: block;
+	margin: 80px auto;
 }
 
+input#search-bar{
+	margin: 0 auto;
+	width: 100%;
+	height: 50px;
+	padding: 0 20px;
+	font-size: 1rem;
+	border: 1px solid #D0CFCE;
+	border-radius: 3px;
+	outline: none;
+	&:focus{
+	    border: 1px solid #000000;
+	    transition: 0.35s ease;
+	    color: #000000;
+	    &::-webkit-input-placeholder{
+		    transition: opacity 0.45s ease; 
+		    opacity: 0;
+	    }
+	    &::-moz-placeholder {
+		    transition: opacity 0.45s ease; 
+		    opacity: 0;
+	    }
+	    &:-ms-placeholder {
+	        transition: opacity 0.45s ease; 
+		    opacity: 0;
+	    }    
+    }
+}
+
+.search-icon{
+	position: relative;
+	float: right;
+	width: 75px;
+	height: 75px;
+	top: -62px;
+	right: -15px;
+}
+
+/*Exposicoes-------------------------------------------------*/
+
+/*media queryes----------------------------------------------*/
 @media screen and (max-width: 1440px){
     .banner{
         height: 40vw;
