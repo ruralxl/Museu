@@ -132,12 +132,15 @@ header{
 .text-home{
     width: 100%;
     padding: 90px;
-    padding-bottom: 0;
+    padding-bottom: 100px;
     position: relative;
     top: -250px;
     right: 0;
     background-color: white;
+    border-right:1px solid  #ccc;
+    border-bottom:1px solid #ccc;
     border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 .comentario-home{
@@ -365,6 +368,11 @@ footer{
 
     .text-home{
         padding: 50px;
+        padding-bottom: 80PX;
+    }
+
+    .video-home{
+        margin-top: 60px;
     }
 
     .galeria{
@@ -392,6 +400,7 @@ footer{
 
     .text-home{
         position: static;
+        border: 0;
     }
 
     .video-home{
@@ -436,10 +445,6 @@ footer{
         margin: 0 auto;
         margin-top: 50px;
     }
-}
-
-@media screen and (max-width: 750px){
-    
 }
 
 @media screen and (max-width: 700px){
