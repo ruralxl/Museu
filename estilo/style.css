@@ -511,7 +511,7 @@ input#search-bar{
 .exposicoes-card-single-text p{
     margin-top: 20px;
     font-weight: 300;
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .exposicoes-card-single-text p:first-of-type{
@@ -642,6 +642,20 @@ input#search-bar{
         left: 50%;
         transform: translateX(-25%);
     }
+
+    .exposicoes-cards{
+        padding: 14%;
+    }
+
+    .tempo-exposicoes{
+       text-align: center;
+    }
+
+    .exposicoes-card-single{
+        width: 90%;
+        float: none;
+        margin: 5% auto;   
+    }
 }
 
 @media screen and (max-width: 810px){
@@ -671,7 +685,19 @@ input#search-bar{
     .form-home-wraper{
         padding: 0 15%;
     }
+}
 
+@media screen and (max-width: 685px) {
+    .search-container{
+        width: 90%;
+    }
+    .tempo-exposicoes{
+        margin:  0 5%;
+    }
+    .tempo-exposicoes P{
+        margin: 0 5%;
+        margin-bottom: 6%;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -687,6 +713,13 @@ input#search-bar{
         float: left;
         background-image: url('../img/logo.png');
         background-size: 100% 100%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .tempo-exposicoes p{
+        font-size: 20px;
+        margin:2%;
     }
 }
 
