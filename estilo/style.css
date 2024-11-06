@@ -190,6 +190,7 @@ footer{
     height: 750px;
     background-image: url(../img/banner.png);
     background-size:100% 100%;
+    /* position: fixed; se der a gente faz */
 }
 
 .conteudo-home{
@@ -545,6 +546,7 @@ input#search-bar{
     .galeria{
         padding: 50px;
     }
+
 }
 
 @media screen and (max-width: 1338px){
@@ -702,3 +704,23 @@ input#search-bar{
         margin-top: 50px;
     }
 }
+
+/* Singles----------------------------------------------------------------------------- inicio */
+
+.single-container{
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/maldito-seja-yudi.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.texto-singles-caixa{
+    background-color: aliceblue;
+    margin: 4%;
+    width: 400px;
+    height: 80%;
+    float: left;
+}
+
+/* singles----------------------------------------------------------------------------- fim */
