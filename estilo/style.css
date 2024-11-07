@@ -523,10 +523,77 @@ input#search-bar{
 
 /*museu-começo-------------------------------------------------*/
 .banner-museu{
-    background-image: url('../img/museu.png');
+    width: 100%;
+    background: linear-gradient(to bottom, transparent 30%, white ), url(../img/museu.png);
     background-size: 100% 100%;
-    height: 60vw;
-    max-height: 600px;
+    height: 65vw;
+    max-height: 750px;
+}
+
+.museu-conteudo{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: -15%;
+    display: flex;
+    flex-direction: row;
+}
+
+.map-museu-wraper{
+    width: 40%;
+    padding: 10% 3%;
+    text-align: center;
+}
+
+.map-museu-wraper p{
+    font-family: "Inria Sans";
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 5%;
+}
+
+.map-museu{
+    width: 100%;
+    padding-top: 60%;
+    background-color: #000000;
+}
+
+.museu-inf{
+    padding: 2%;
+    margin: 0 3%;
+    margin-left: 5%;
+    width: 60%;
+    position: relative;
+    top: -300px;
+    right: 0;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.museu-inf-img{
+    background-image: url('../img/museuimg1.png');
+    background-size: 100% 100%;
+    height: 400px;
+    margin-bottom: 10%;
+}
+
+.museu-inf-text{
+    font-family: "Inria Sans";
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.museu-inf-text p{
+    margin-bottom: 5%;
+}
+
+.museu-inf-text h2{
+    margin-top: 15%;
+    border-bottom: 2px solid black;
+    padding-bottom: 4%;
+    padding-left: 5%;
+    margin-bottom: 7%;
+    font-weight: 700;
+    font-size: 38px;
 }
 /*museu-fim-------------------------------------------------*/
 
@@ -553,6 +620,10 @@ input#search-bar{
         padding: 50px;
     }
 
+    .map-museu-wraper{
+        margin: 0;
+        padding: 9% 0;
+    }
 }
 
 @media screen and (max-width: 1338px){
@@ -646,9 +717,10 @@ input#search-bar{
     }
 
     .icons-footer{
+        max-width: 400px;
         position: relative;
         left: 50%;
-        transform: translateX(-25%);
+        transform: translateX(-50%);
     }
 
     .exposicoes-cards{
@@ -663,6 +735,23 @@ input#search-bar{
         width: 90%;
         float: none;
         margin: 5% auto;   
+    }
+
+    .museu-conteudo{
+        display: block;
+        margin-bottom: 0;
+    }
+
+    .map-museu-wraper{
+        width: 100%;
+    }
+
+    .museu-inf{
+        width: 100%;
+        position: static;
+        margin: 0;
+        padding: 5%;
+        border: 0;
     }
 }
 
