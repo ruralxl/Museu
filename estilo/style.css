@@ -521,6 +521,73 @@ input#search-bar{
 }
 /*Exposicoes-fim-------------------------------------------------*/
 
+/* Singles----------------------------------------------------------------------------- inicio */
+
+.single-bg{
+    width: 100%;
+    padding-top: 35%;
+    background-image: url('../img/maldito-seja-yudi.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 3%;
+}
+
+.box-text-single{
+    border-radius: 6px;
+    background-color: white;
+    width: 50%;
+    max-width: 900px;
+    padding:7% 5%;
+    padding-bottom: 5%;
+    position: relative;
+    left: 42%;
+    top: 30%;
+}
+
+.detalhes-single{
+    font-family: "Inter";
+    font-weight: 400;
+}
+
+.detalhes-single p:first-child{
+    font-size: 18px;
+    margin-bottom: 4%;
+}
+
+.detalhes-single p:last-child{
+    font-size: 20px;
+}
+
+.text-single{
+    margin-top: 5%;
+    margin-bottom: 12%;
+    font-family: "Inter";
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.text-single p{
+    margin-bottom: 5%;
+}
+
+.button-comprar-single{
+    width: 90%;
+    height: 70px;
+    margin: 5% auto;
+    background-color: #000000;
+}
+
+.button-comprar-single p{
+    color: white;
+    font-size: 24px;
+    font-family: "Inter";
+    font-weight: 400;
+    padding: 3%;
+}
+
+.arrow-single
+/* singles----------------------------------------------------------------------------- fim */
+
 /*museu-começo-------------------------------------------------*/
 .banner-museu{
     width: 100%;
@@ -832,23 +899,3 @@ input#search-bar{
         margin-top: 50px;
     }
 }
-
-/* Singles----------------------------------------------------------------------------- inicio */
-
-.single-container{
-    width: 100%;
-    height: 100%;
-    background-image: url('../img/maldito-seja-yudi.png');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-
-.texto-singles-caixa{
-    background-color: aliceblue;
-    margin: 4%;
-    width: 400px;
-    height: 80%;
-    float: left;
-}
-
-/* singles----------------------------------------------------------------------------- fim */
