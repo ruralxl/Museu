@@ -184,7 +184,6 @@ footer{
 }
 
 /*Home-começo------------------------------------------------------*/
-
 .banner{
     width: 100%;
     height: 750px;
@@ -255,7 +254,7 @@ footer{
     border-radius: 15px;
 }
 
-.galeria{
+.galeria-home{
     width: 60%;
     padding: 130px;
     padding-bottom: 0;
@@ -372,7 +371,6 @@ footer{
     font-weight: 400;
     color: black;
 }
-
 /*Home-fim------------------------------------------------------*/
 
 /*Exposicoes-começo------------------------------------------------*/
@@ -523,6 +521,49 @@ input#search-bar{
 
 .exposicoes-card-single-text p:last-child{
     margin-bottom: 5%;
+}
+
+.banner-galeria{
+    width: 100%;
+    padding-top: 40%;
+    background-image: url('../img/banner-galeria.png');
+    background-size: 100% 100%;
+}
+
+.galeria{
+    width: 100%;
+    padding: 5%;
+}
+
+.galeria-titulo{
+    width: 60%;
+    padding-bottom: 2%;
+    border-bottom: 2px solid black;
+    margin-left: 2%;
+}
+
+.galeria-titulo h2{
+    font-weight: 700;
+    font-family: "Inria Sans";
+    font-size: 64px;
+}
+
+.galeria-imgs{
+    width: 100%;
+    padding-top: 22px;
+}
+
+.galeria-img-wraper{
+    width: 33.3%;
+    border: 22px solid white;
+    border-bottom: 10;
+    float: left;
+}
+
+.img-galeria{
+    width: 100%;
+    padding-top: 80%;
+    background-size: 100% 100%;
 }
 /*Exposicoes-fim-------------------------------------------------*/
 
