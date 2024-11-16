@@ -947,9 +947,7 @@ input#search-bar{
         height: 40px;
         transform: translateY(-125%);
     }
-}
 
-@media screen and (max-width: 960px) {
     .single-bg{
         padding: 0%;
         padding-bottom: 10%;
