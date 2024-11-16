@@ -18,8 +18,8 @@
                 <li><a href="">Home</a></li>
                 <li><a href="exposicoes.html">Exposições</a></li>
                 <li><a href="museu.html">Museu</a></li>
-                <li><a href="">Galeria</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a goto="galeria" href="exposicoes.html#galeria">Galeria</a></li>
+                <li><a goto="contato" href="#contato">Contato</a></li>
             </ul>
         </div><!--menu-desktop-->
 
@@ -32,8 +32,8 @@
                 <li><a href="">Home</a></li>
                 <li><a href="exposicoes.html">Exposições</a></li>
                 <li><a href="museu.html">Museu</a></li>
-                <li><a href="">Galeria</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a goto="galeria" href="exposicoes.html#galeria">Galeria</a></li>
+                <li><a goto="contato" href="#contato">Contato</a></li>
             </ul>
         </div><!--menu-mobile-->
         <div class="clear"></div>
@@ -52,9 +52,7 @@
                     <p>O Museu Nacional, fundado em 1922 na cidade do Rio de Janeiro, é uma instituição dedicada à preservação da história e da identidade cultural de seu país. Com um vasto acervo de peças arqueológicas, etnográficas e artísticas, o museu apresenta exposições sobre a formação do território, culturas indígenas, colonialismo e modernidade.</p>
                     <p>Destaca-se pela famosa ala de artefatos e pela coleção de pinturas do século XIX. Em seu prédio histórico, o museu oferece ainda programas educativos e eventos culturais que atraem visitantes locais e internacionais, tornando-se um centro importante de pesquisa e cultura</p>
                 </div><!--inf-home-->
-                <div class="video-home">
-                    <a href=""></a>
-                </div><!--video-home-->
+                <iframe class="video-home" src="https://www.youtube.com/embed/RGUYb-hivrc" frameborder="0"></iframe><!--video-home-->
             </div><!--text-home-->
         </div>
 
@@ -70,7 +68,7 @@
         </div><!--galeria-home-->
     </section><!--conteudo-home-->
 
-    <section id="contato" class="form-home">
+    <section goto="contato" id="contato" class="form-home">
         <div class="form-home-wraper">
             <form action="" id="form1">
                 <h2>Fale Conosco</h2>
@@ -82,9 +80,7 @@
                 <p>*Preencha o campo corretamente</p>
                 <input type="text" name="assunto" placeholder="Assunto">
                 <textarea placeholder="Mensagem" name="" id=""></textarea>
-                <div class="btn">
-                    Enviar
-                </div><!--btn-->
+                <input type="submit" value="Enviar">
             </form> 
         </div>
     </section><!--form-home-->
@@ -128,5 +124,7 @@
     <script src="js/jquery.js"></script>
     <script src="js/form.js"></script>
     <script src="js/nav.js"></script>
+    <script src="js/contato.js"></script>
+    <script src="js/galeria-nav.js"></script>
 </body>
 </html>

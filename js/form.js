@@ -81,4 +81,6 @@ $(()=>{
     $('input[type=text]').focus(function(){
         resetarCampoInvalido($(this));
     })
+
+    verificarNome();
 })
