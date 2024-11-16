@@ -1044,12 +1044,6 @@ input#search-bar{
         background-image: url('../img/logo.png');
         background-size: 100% 100%;
     }
-
-    .arrow-single{
-        width: 70px;
-        height: 30px;
-        transform: translateY(-145%);
-    }
 }
 
 @media screen and (max-width: 460px) {
@@ -1063,5 +1057,4 @@ input#search-bar{
     .galeria{
         padding: 0 60px;
     }
-
 }
