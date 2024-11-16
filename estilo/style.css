@@ -967,6 +967,14 @@ input#search-bar{
     .img-single{
         display: block;
     }
+
+    .arrow-single{
+        display: none;
+    }
+
+    .button-comprar-single{
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 810px){
